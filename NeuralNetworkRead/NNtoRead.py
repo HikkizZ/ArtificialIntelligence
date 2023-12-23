@@ -106,7 +106,7 @@ def plot_image(i, predictions_array, true_labels, images):
     )
 
 #¡Function to plot the graph
-def plot_value_array(i, predictions_array, true_label): 
+def plot_value_array(i, predictions_array, true_label):
     predictions_array, true_label = predictions_array[i], true_label[i]
     plt.grid(False)
     plt.xticks([])
@@ -127,7 +127,7 @@ num_cols = 6
 #? Total number of images to plot
 num_images = num_rows*num_cols
 #? Create a figure
-plt.figure(figsize=(2*2*num_cols, 2*num_rows)) 
+plt.figure(figsize=(2*2*num_cols, 2*num_rows))
 
 #¡ For each image
 for i in range(num_images):
