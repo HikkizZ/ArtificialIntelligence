@@ -1,0 +1,16 @@
+#canvas-container {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+#canvas {
+    border: 1px solid black;
+}
+
+#resultado {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+}
